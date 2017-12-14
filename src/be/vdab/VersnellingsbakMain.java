@@ -13,5 +13,13 @@ public class VersnellingsbakMain {
     } catch (VersnellingsException ex) {
         System.out.println("verkeerde versnelling");
     }
+    
+    
+    String[] antwoorden = new String[2];
+    antwoorden[0] = "Blabla";
+    
+    for (String regel: antwoorden )
+            System.out.println(regel);
+    
 }
 }
